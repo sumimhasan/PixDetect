@@ -1,4 +1,4 @@
-# Nudity Detection CNN with ResNet
+# Image Detection CNN with ResNet
 
 This project uses a pretrained ResNet model to classify images into three categories:
 
