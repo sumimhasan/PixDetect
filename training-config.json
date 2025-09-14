@@ -1,0 +1,15 @@
+{
+    "image-resulation": [224, 224],
+    "batch-size": 32,
+    "num-epochs": 50,
+    "learning-rate": 0.001,
+    "momentum": 0.9,
+    "weight-decay": 0.0005,
+    "lr-step-size": 20,
+    "lr-gamma": 0.1,
+    "num-classes": 1000,
+    "pretrained": true,
+    "train-data-path": "data/train",
+    "val-data-path": "data/val",
+    "save-checkpoints-path": "checkpoints/"
+}
