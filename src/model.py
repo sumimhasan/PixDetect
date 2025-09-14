@@ -2,7 +2,7 @@ import torch.nn as nn
 import torchvision.models as models
 
 def get_model(num_classes=3, pretrained=True):
-    model = models.resnet18(pretrained=pretrained)
+    model = models.resnet50(pretrained=pretrained)
     
     # Freeze all layers
     for param in model.parameters():

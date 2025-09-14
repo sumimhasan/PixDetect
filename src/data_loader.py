@@ -2,10 +2,10 @@ import torch
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, random_split
 
-def get_dataloaders(data_dir, batch_size=32, val_split=0.2):
+def get_dataloaders(imageW,imageH,data_dir, batch_size, val_split):
     # Transformations
     transform = transforms.Compose([
-        transforms.Resize((224, 224)),
+        transforms.Resize((imageW, imageH)),
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], 
                              [0.229, 0.224, 0.225])
