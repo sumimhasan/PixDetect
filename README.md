@@ -2,9 +2,9 @@
 
 This project uses a pretrained ResNet model to classify images into three categories:
 
-- **0** – Explicit (fully nude)  
-- **1** – Half-naked / Suggestive  
-- **2** – Safe  
+- **0** – Class 1
+- **1** – Class 2
+- **2** – Class 3  
 
 ## Folder Structure
 
